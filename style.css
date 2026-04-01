@@ -221,11 +221,14 @@
     display: flex;
     justify-content: center;
     padding: 110px;
+   
 }
 .cards{
     display: flex;
     justify-content: space-between;
       gap: 100px;
+       flex-wrap: wrap;
+    justify-content: center;
 }
 .card1{
     width: 350px;
@@ -255,7 +258,8 @@
 
 @media (max-width:1200) {
     .main-card{
-        flex-wrap: warp;
+       /* background-size: contain;
+       background-position: top center; */
     }
 }
 
