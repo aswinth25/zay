@@ -295,7 +295,7 @@
 }
 .pcard1{
     width: 370px;
-    height: 500px;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -304,23 +304,46 @@
     background-color:  rgb(255, 255, 255);
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 60px;
+    padding-bottom: 55px;
     border-radius: 2px;
     
 }
 .pcard-img{
     width: 410px;
-    height: 350px;
+    height: 300px;
     object-fit: cover;
     border-radius: 2px;
 }
 .rating{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    width: 98%;
+    margin: auto;
+
 }
-
-
-
+.product-detail{
+    font-weight: 250;
+    font-size: 20px;
+}
+.review{
+    color: rgb(196, 187, 196);
+}
+.card-heading{
+    font-weight: 300;
+    font-size: 34px;
+}
+.star{
+    color: rgb(237, 232, 97);
+}
+.nostar{
+    color: rgb(189, 189, 189);
+}
+.dollar{
+     color: rgb(196, 187, 196);
+     font-size: 20px;
+     font-weight: 250;
+}
 
 
 
