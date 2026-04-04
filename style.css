@@ -396,7 +396,21 @@ hr{
     margin: auto;
     width: 85%;
 }
+.foot-p:hover{
+    color: rgb(75, 171, 109);
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    align-items: center;
 
+}
+.iconsleft{
+    f
+}
 
 
 
